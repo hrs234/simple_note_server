@@ -1,6 +1,6 @@
-# Simple Note RESTapi
+# Simple Note Server
 
-an simple note REST API application to saves our notes
+an part of backend simple note app
 
 ## guides
 
@@ -12,7 +12,7 @@ an simple note REST API application to saves our notes
     npm install
     ```
 
-  - setup an <em>.env</em> file
+  - create an <em>.env</em> file and write this into the file
     
     ```
     PORT_SERVER= [YOUR_PORT]
@@ -21,6 +21,16 @@ an simple note REST API application to saves our notes
     DB_PASSWORD= [YOUR_DATABASE_PASSWORD]
     DB_NAME= [YOUR_NAME_DATABASE]
 
+    ```
+    OR
+
+    you can just rename an file <em>.env.default</em> to <em>.env</em> and write up our settings
+
+
+  - then install an nodemon
+
+    ```
+    npm install -g nodemon
     ```
 
   - to running an server you just type 
