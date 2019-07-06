@@ -4,9 +4,18 @@ an part of backend simple note app
 
 ## guides
 
+- ## database requirement
+  
+  - the database is using MySQL engines
+  
+  -  the database structure can be found on database folder with file name <em>simple_note.sql</em> to be imported
+  
+
 - ## running an server 
   
-  - run this command first
+  - firstly you need install an [node.js](https://nodejs.org/en/download/ "link to download the node.js") if you already have, just skip it
+
+  - after that run this command first
   
     ```
     npm install
